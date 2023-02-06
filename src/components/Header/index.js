@@ -7,7 +7,7 @@ export default class index extends Component {
   };
 
   toggleMenu = () => {
-    console.log("clicked" + this.state.showCollapsedMenu);
+    // console.log("clicked" + this.state.showCollapsedMenu);
     this.setState({
       showCollapsedMenu: !this.state.showCollapsedMenu,
     });
