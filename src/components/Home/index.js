@@ -16,7 +16,75 @@ export default function index() {
         <hr className="my-4" />
       </div>
       <div className="container-fluid work">
-        <h2 className="work-header" id="work">
+        <div className="row">
+          <div className="left-section col-xs-12 col-sm-6">
+            <div className="card">
+              <div className="card-body">
+                <h5 className="card-title">Surf Report</h5>
+                <p className="card-text">Vanilla JS</p>
+              </div>
+            </div>
+          </div>
+          <div className="right-section col-xs-12 col-sm-6">
+            <div class="row row-cols-1 row-cols-md-2">
+              {/* <div className="card-group"> */}
+              <div class="col mb-4">
+                <div className="card">
+                  <img
+                    src="./images/02-portfolio-4.jpg"
+                    alt="an surfing in ocean"
+                    className="card-img-top"
+                  />
+                  <div className="card-body">
+                    <h5 className="card-title">Surf Report</h5>
+                    <p className="card-text">Vanilla JS</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col mb-4">
+                <div className="card">
+                  <img
+                    src="./images/02-portfolio-4.jpg"
+                    alt="an surfing in ocean"
+                    className="card-img-top"
+                  />
+                  <div className="card-body">
+                    <h5 className="card-title">Surf Report</h5>
+                    <p className="card-text">Vanilla JS</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col mb-4">
+                <div className="card">
+                  <img
+                    src="./images/02-portfolio-4.jpg"
+                    alt="an surfing in ocean"
+                    className="card-img-top"
+                  />
+                  <div className="card-body">
+                    <h5 className="card-title">Surf Report</h5>
+                    <p className="card-text">Vanilla JS</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col mb-4">
+                <div className="card">
+                  <img
+                    src="./images/02-portfolio-4.jpg"
+                    alt="an surfing in ocean"
+                    className="card-img-top"
+                  />
+                  <div className="card-body">
+                    <h5 className="card-title">Surf Report</h5>
+                    <p className="card-text">Vanilla JS</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* <h2 className="work-header" id="work">
           Work
         </h2>
         <div className="row">
@@ -102,8 +170,8 @@ export default function index() {
                 <p className="card-text">React and APIs</p>
               </div>
             </div>
-          </div>
-        </div>
+          </div> */}
+        {/* </div> */}
       </div>
 
       <section className="about-contact container-fluid">
