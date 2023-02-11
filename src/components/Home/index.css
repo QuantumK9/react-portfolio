@@ -1,0 +1,34 @@
+.left-section {
+  background-color:orange;
+  justify-content: center !important;
+  align-items: center;
+  height: 100vh;
+}
+
+.right-section {
+  background-color:black;
+  height: 100vh;
+  align-items: center;
+}
+
+.left-section>card {
+  margin: 0 auto !important;
+  
+}
+
+.jumbotron   {
+  padding: 0 !important;
+  margin: 0 !important;
+  height: 100vh;
+}
+
+.custom-jumbo {
+  height: 100%;
+}
+.left-jumbo {
+  background-color: black;
+}
+
+.right-jumbo {
+  background-color: orange;
+}
