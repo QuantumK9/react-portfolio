@@ -1,0 +1,60 @@
+.left-section {
+  background-color:orange;
+  justify-content: center !important;
+  align-items: center;
+  height: 100vh;
+}
+
+.right-section {
+  background-color:black;
+  height: 100vh;
+  align-items: center;
+}
+
+.left-section>card {
+  margin: 0 auto !important;
+  
+}
+
+.jumbotron   {
+  padding: 0 !important;
+  margin: 0 !important;
+  height: 100vh;
+  min-height: 400px;
+  align-items: center !important;
+}
+
+.custom-jumbo {
+  height: 100%;
+}
+.left-jumbo {
+  background-color: black;
+  display: flex;
+  align-items: center ;
+  justify-content: center;
+}
+
+.right-jumbo {
+  background-color: orange;
+}
+
+.left-jumbo-card {
+  border-radius: 100px !important;
+  border: none;
+  width: 194px;
+  height: 194px;
+}
+
+.card-img {
+  border-radius: 100px !important;
+}
+
+#left-jumbo-img {
+  /* align-self: center !important; */
+  border-radius: 100px ;
+  
+  width: 100%;
+  height: 100%;
+  object-fit:cover;
+  overflow: hidden;
+}
