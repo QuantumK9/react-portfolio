@@ -1,12 +1,12 @@
 .left-section {
-  background-color:orange;
+  background-color:black;
   justify-content: center !important;
   align-items: center;
   height: 100vh;
 }
 
 .right-section {
-  background-color:black;
+  background-color:#fed43a;;
   height: 100vh;
   align-items: center;
 }
@@ -20,6 +20,7 @@
   padding: 0 !important;
   margin: 0 !important;
   height: 100vh;
+  /* max-height: 900px; */
   min-height: 400px;
   align-items: center !important;
 }
@@ -35,7 +36,8 @@
 }
 
 .right-jumbo {
-  background-color: orange;
+  background-color:#fed43a;
+  /* background-color: orange; */
 }
 
 .left-jumbo-card {
