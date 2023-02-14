@@ -40,7 +40,7 @@ export default function index() {
           </div>
         </div>
       </div>
-      <div className="right-section col-xs-12 col-sm-6 card-group">
+      <div className="right-section col-xs-12 col-sm-6 ">
         <img
           src="https://images.unsplash.com/photo-1480694313141-fce5e697ee25?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
           alt="project"

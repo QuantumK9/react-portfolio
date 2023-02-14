@@ -23,20 +23,19 @@
   height: 100vh;
   align-items: center;
   border: 1px solid red;
+  display: grid;
 }
 
-.right-section img {
+.right-section > img {
   width: 80%;
   height: auto;
-  margin: 10px auto;
+  /* margin: 10px auto !important; */
+  justify-self: center ;
+  align-self: center ;
   border-radius: 20px;
   box-shadow: -10px -7px 19px -6px rgba(0, 0, 0, 0.7);
   -webkit-box-shadow: -10px -7px 19px -6px rgba(0, 0, 0, 0.7);
   -moz-box-shadow: -10px -7px 19px -6px rgba(0, 0, 0, 0.7);
 }
 
-.left-section>card {
-  margin: 0 auto !important;
-
-}
 
