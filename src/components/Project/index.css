@@ -11,6 +11,12 @@
   align-items: center;
 }
 
+.right-section img {
+  width: 50%;
+  height: auto;
+  margin: 10px auto;
+}
+
 .left-section>card {
   margin: 0 auto !important;
 
