@@ -1,0 +1,26 @@
+.left-work-header {
+  display: grid;
+  background-color: black;
+  justify-content: center !important;
+  align-items: center !important;
+  height: 20vh;
+  /* border: 1px solid red; */
+}
+
+
+.right-work-header {
+  display: grid;
+  background-color: #fed43a;
+  height: 20vh;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid red; */
+  display: grid;
+}
+
+#work-header {
+  font-size: 4rem;
+  font-weight: 700;
+  color: white;
+  
+}
