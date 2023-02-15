@@ -19,8 +19,26 @@
 }
 
 #work-header {
-  font-size: 4rem;
+  font-size: 5rem;
   font-weight: 700;
   color: white;
   
+}
+
+
+/* @media screen and (max-width: 500px) {
+  #work-header {
+    font-size: 4rem;
+  }
+} */
+@media screen and (max-width: 575px) {
+  #work-header {
+    border-bottom: 1px solid #fed43a;
+
+  }
+}
+@media screen and (max-width: 750px) {
+  #work-header {
+    font-size: 4.5rem;
+  }
 }
