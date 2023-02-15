@@ -21,7 +21,7 @@ export default function index() {
             <div className="techs-wrapper">
               {/* <div className="horizontal-line"></div> */}
               <p className="techs-paragraph">
-                <span className="text-bolder">Role : </span> Product,
+                <span className="text-bolder">Techs Used: </span> Product,
                 Web-Design, Development &amp; SEO.
               </p>
               <div className="horizontal-line"></div>
