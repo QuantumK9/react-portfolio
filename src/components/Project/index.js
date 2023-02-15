@@ -6,37 +6,38 @@ export default function index() {
     <>
       <div className="left-section col-xs-12 col-sm-6">
         <div className="left-content ">
-          <h2>
-            <span>01.</span> Project 1
+          <h2 className="project-header">
+            <span className="project-header-span">01.</span> Project Title
           </h2>
 
-          <p className="h2-paragraph project">Accept payments online,</p>
-          <div className="h3-paragraph-wrapper">
-            <p className="h3-paragraph project mobile-hide">
+          <p className="project-subtitle ">Small description</p>
+          <div className="project-content-wrapper">
+            <p className="project-paragraph ">
               Led the full design process on a multi million dollar domain for a
               fintech company that is redefining the world of payments.
               <br />
             </p>
-          </div>
-          <div className="role-wrapper">
-            <div className="horizontal-line"></div>
-            <p className="h4-paragraph">
-              <span className="text-bolder">Role : </span> Product, Web-Design,
-              Development &amp; SEO.
-            </p>
-            <div className="horizontal-line"></div>
-          </div>
-          <div className="button-wrapper">
-            <a
-              href="https://pay.com/"
-              target="_blank"
-              className="casestudy-button _2 w-button"
-            >
-              Go To Website
-            </a>
-            <a href="#" className="casestudy-button disabled w-button">
-              Case-study coming soon
-            </a>
+
+            <div className="techs-wrapper">
+              {/* <div className="horizontal-line"></div> */}
+              <p className="techs-paragraph">
+                <span className="text-bolder">Role : </span> Product,
+                Web-Design, Development &amp; SEO.
+              </p>
+              <div className="horizontal-line"></div>
+            </div>
+            <div className="button-wrapper">
+              <a
+                href="https://pay.com/"
+                target="_blank"
+                className="project-site-link btn btn-success"
+              >
+                Go To Website
+              </a>
+              <a href="#" className="project-repo-link btn btn-primary">
+                Case-study coming soon
+              </a>
+            </div>
           </div>
         </div>
       </div>
