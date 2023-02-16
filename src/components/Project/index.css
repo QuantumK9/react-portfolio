@@ -1,0 +1,121 @@
+.left-section {
+  background-color: black;
+  display: grid;
+  justify-content: center !important;
+  align-items: center ;
+  padding-top: 0 !important;
+  max-height: 850px;
+  height: 100vh;
+  min-height: 600px !important;
+  /* border: 1px solid red; */
+}
+
+.left-section > .left-content {
+  /* margin: 0 auto; */
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
+  display: grid;
+  align-items: center;
+  height: 80%;
+  min-width: 70%;
+  /* border: 1px solid green; */
+  
+  
+}
+
+.project-header {
+  margin-bottom: 2rem;
+  font-size: 2.4rem;
+  color:aliceblue;
+
+}
+
+.project-header-span {
+  margin-right: 2rem;
+}
+
+.project-subtitle {
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  color: aliceblue;
+}
+.project-content-wrapper {
+  margin-left: 1rem;
+  padding: 2rem;
+  border-left: 1px solid lightgrey;
+}
+.project-paragraph {
+  margin-bottom: 3rem;
+  font-size: 1.2rem;
+  color: aliceblue
+}
+
+.techs-wrapper {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-top: 1px solid rgb(193, 193, 194);
+  border-bottom: 1px solid rgb(193, 193, 194);
+}
+
+.text-bolder {
+  font-weight: 700;
+  color:aliceblue
+}
+
+.techs-paragraph {
+  color: aliceblue
+}
+
+.button-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 2rem auto;
+}
+
+.project-site-link {
+  
+}
+
+
+
+.right-section {
+  background-color: #fed43a;
+  display: grid;
+  max-height: 850px;
+  height: 100vh;
+  min-height: 600px !important;
+  /* justify-content: center !important; */
+  /* align-items: center; */
+  /* border: 1px solid red; */
+  display: grid;
+}
+
+.right-section > img {
+  width: 80%;
+  height: auto;
+  justify-self: center ;
+  align-self: center ;
+  border-radius: 20px;
+  box-shadow: -10px -7px 19px -6px rgba(0, 0, 0, 0.7);
+  -webkit-box-shadow: -10px -7px 19px -6px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: -10px -7px 19px -6px rgba(0, 0, 0, 0.7);
+}
+
+
+@media screen and (max-width: 575px) {
+  .right-section {
+    height: 300px;
+    min-height: 200px !important;
+    border-bottom: 10px dashed black;
+    
+
+  }
+  
+}

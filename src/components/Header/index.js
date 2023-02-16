@@ -17,9 +17,9 @@ export default class index extends Component {
     const show = this.state.showCollapsedMenu ? "show" : "";
     return (
       <nav className="nav navbar navbar-expand-md navbar-dark bg-dark custom-navbar">
-        <a className="navbar-brand" href="#">
+        <NavLink to="/" className="navbar-brand" href="#">
           Iraklis K
-        </a>
+        </NavLink>
         <button
           className="navbar-toggler"
           type="button"
@@ -48,12 +48,12 @@ export default class index extends Component {
 
             <li className="nav-item">
               <NavLink
-                to="projects"
+                to="work"
                 className={({ isActive }) =>
                   isActive ? "nav-link active" : "nav-link"
                 }
               >
-                Projects
+                Work
               </NavLink>
             </li>
             <li className="nav-item">
