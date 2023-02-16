@@ -4,6 +4,7 @@
   justify-content: center !important;
   align-items: center !important;
   height: 20vh;
+  min-height: 160px !important;
   /* border: 1px solid red; */
 }
 
@@ -12,6 +13,7 @@
   display: grid;
   background-color: #fed43a;
   height: 20vh;
+  min-height: 160px !important;
   align-items: center;
   justify-content: center;
   /* border: 1px solid red; */
@@ -22,7 +24,7 @@
   font-size: 5rem;
   font-weight: 700;
   color: white;
-  
+  /* min-height: 160px; */
 }
 
 
