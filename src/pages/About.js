@@ -1,7 +1,7 @@
 import React from "react";
 import Hero from "../components/Hero";
 import Skills from "../components/Skills";
-import Footer from "../components/Footer";
+import Footer from "../components/Footer/Footer";
 
 export default function About() {
   return (
