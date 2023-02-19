@@ -1,6 +1,6 @@
 .footer-wrapper {
-  margin: 0;
-  padding: 2rem;
+  margin: 0 !important;
+  padding: 0.1rem 2rem !important;
   background-color: #fed43a;
 }
 

@@ -25,7 +25,7 @@ export default function index() {
       <div className="row">
         <Project />
       </div>
-      <div className="row">
+      <div className="row last-row">
         <Project />
       </div>
     </div>
