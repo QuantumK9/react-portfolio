@@ -1,0 +1,19 @@
+.contact-header-wrapper {
+  margin: 0;
+  padding: 2rem;
+  background-color: #fed43a;
+}
+
+.contact-header, .contact-paragraph {
+  text-align: center;
+  margin: 1rem auto;
+}
+
+.social-wrapper {
+  text-align: center;
+  
+}
+.social-link-wrapper {
+  margin: 2rem 1.2rem;
+
+}
