@@ -20,7 +20,7 @@
   padding: 0 !important;
   margin: 0 !important;
   height: 100vh;
-  /* max-height: 900px; */
+  max-height: 850px;
   min-height: 400px;
   align-items: center !important;
 }
@@ -44,6 +44,7 @@
   display: flex;
     align-items: center;
     justify-content: center;
+    border: none !important;
   /* background-color: orange; */
 }
 
@@ -72,4 +73,16 @@
   justify-content: center !important;
   border: none !important;
   
+}
+
+.info-card-title {
+  font-size: 6rem;
+}
+
+.info-card-subtitle {
+  font-size: 2rem;
+}
+
+.info-card-text {
+  font-size: 1rem;
 }

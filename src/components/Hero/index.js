@@ -28,11 +28,11 @@ export default function index() {
             <div className="row row-col-1">
               <div className="card right-jumbo-card">
                 <div className="card-body">
-                  <h1 className="card-title">Iraklis K</h1>
-                  <h2 className="card-subtitle mb-2 text-muted">
+                  <h1 className="info-card-title">Iraklis K</h1>
+                  <h2 className="info-card-subtitle mb-2 text-muted">
                     Web developer
                   </h2>
-                  <p className="card-text">
+                  <p className="info-card-text">
                     I love programming and developing for the web! Javascript
                     React and Next are my favourites.
                   </p>
