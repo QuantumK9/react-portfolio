@@ -9,7 +9,7 @@ export default function index() {
         <div className="custom-jumbo row">
           <div className="left-jumbo col-xs-12 col-sm-6 w-100">
             <div className="row row-col-1 align-items-center">
-              <div className="card left-jumbo-card mb-3 w-50 mx-auto">
+              <div className="card left-jumbo-card mb-3 mx-auto">
                 <img
                   id="left-jumbo-img`"
                   className="card-img"
