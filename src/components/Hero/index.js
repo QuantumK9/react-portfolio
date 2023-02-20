@@ -28,27 +28,34 @@ export default function index() {
             <div className="row row-col-1">
               <div className="card right-jumbo-card">
                 <div className="card-body">
-                  <h1 className="card-title">Card title</h1>
+                  <h1 className="card-title">Iraklis K</h1>
                   <h2 className="card-subtitle mb-2 text-muted">
-                    Card subtitle
+                    Web developer
                   </h2>
                   <p className="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    I love programming and developing for the web! Javascript
+                    React and Next are my favourites.
                   </p>
-                  <a href="#" className="card-link">
-                    Card link
-                  </a>
-                  <a href="#" className="card-link">
-                    Another link
-                  </a>
+                  <NavLink
+                    to="/work"
+                    className="card-link btn btn-primary"
+                    href="#"
+                  >
+                    My Work
+                  </NavLink>
+                  <NavLink
+                    to="/contact"
+                    className="card-link btn btn-success"
+                    href="#"
+                  >
+                    Contact Me
+                  </NavLink>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      {/* --- part 2 --- */}
     </>
   );
 }
