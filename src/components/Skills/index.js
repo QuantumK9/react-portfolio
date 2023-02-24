@@ -1,7 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "./index.css";
-import bootstrap from "../../assets/bootstrap.jpeg";
 import mongodb from "../../assets/mongodb.png";
 import next from "../../assets/next.png";
 import node from "../../assets/node.png";
@@ -14,17 +13,16 @@ export default function index() {
     <div className="container-fluid work">
       <div className="row">
         <div className="left-section col-xs-12 col-sm-6">
-          <div className="row row-cols-1">
-            <div className="card col-6">
-              <div className="card-body">
-                <h5 className="card-title">Surf Report</h5>
-                <p className="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Veritatis quisquam a commodi ex nulla aut blanditiis dolores
-                  tempore dignissimos consectetur.
-                </p>
-              </div>
-            </div>
+          <div className="left-about-content ">
+            <h2 className="about-header">About me</h2>
+            <p className="about-paragraph ">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+              accusantium iusto doloribus hic totam, ad dolore dicta deleniti
+              doloremque soluta voluptate recusandae. Eos illo doloremque
+              corporis modi accusantium fugit quibusdam temporibus maxime,
+              delectus iure,.
+              <br />
+            </p>
           </div>
         </div>
         <div className="right-section-skills col-xs-12 col-sm-6 card-group">
