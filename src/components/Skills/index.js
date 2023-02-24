@@ -28,6 +28,9 @@ export default function index() {
           </div>
         </div>
         <div className="right-section-skills col-xs-12 col-sm-6 card-group">
+          <div className="row skills-card-row">
+            <h1 className="skills-header">My Skills</h1>
+          </div>
           <div className="row skills-card-row ">
             {/* <div className="card-group"> */}
             <div
