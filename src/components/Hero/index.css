@@ -2,12 +2,12 @@
   background-color:black;
   justify-content: center !important;
   align-items: center;
-  height: 100vh;
+  height: 80vh;
 }
 
 .right-section {
   background-color:#fed43a;;
-  height: 100vh;
+  height: 80vh;
   align-items: center;
 }
 
@@ -20,7 +20,7 @@
   padding: 0 !important;
   margin: 0 !important;
   height: 100vh;
-  /* max-height: 900px; */
+  max-height: 850px;
   min-height: 400px;
   align-items: center !important;
 }
@@ -30,33 +30,92 @@
 }
 .left-jumbo {
   background-color: black;
+  max-height: 850px;
+  min-height: 600px;
   display: flex;
   align-items: center ;
   justify-content: center;
 }
 
-.right-jumbo {
+.right-hero-jumbo {
   background-color:#fed43a;
+  max-height: 850px;
+  min-height: 600px;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none !important;
   /* background-color: orange; */
 }
 
 .left-jumbo-card {
-  border-radius: 100px !important;
-  border: none;
-  width: 194px;
-  height: 194px;
+  background-color: transparent !important;
+  /* border: 1px solid red; */
+  align-items: center;
+  justify-content: center;
+  width: 500px !important ;
+  height: 500px;
 }
 
 .card-img {
-  border-radius: 100px !important;
+  border-radius: 50% !important;
+  /* border: 1px solid blue;  */
+  width: 200px !important;
+  height: 200px !important;
+  object-fit: cover;
+  overflow: hidden;
 }
 
-#left-jumbo-img {
-  /* align-self: center !important; */
-  border-radius: 100px ;
+.right-jumbo-card {
+  background-color: transparent !important;
+  /* border: 1px solid red !important; */
+  align-items: center !important;
+  justify-content: center !important;
+  border: none !important;
   
-  width: 100%;
-  height: 100%;
-  object-fit:cover;
-  overflow: hidden;
+}
+
+.info-card-title {
+  font-size: 6rem;
+}
+
+.info-card-subtitle {
+  font-size: 2rem;
+}
+
+.info-card-text {
+  font-size: 1rem;
+}
+
+.btn-mywork {
+  background-color: black !important;
+  color: #fed43a !important;
+  border: none !important;
+}
+
+.btn-mywork:hover , .btn-contact:hover {
+  opacity: 0.6 !important;
+  transition: 0.5s ease-in-out !important;
+}
+
+.btn-contact {
+  background-color: grey !important;
+  color: #fed43a !important;
+  border: none !important;
+}
+
+@media screen and (max-width: 575px) {
+  
+  .right-hero-jumbo {
+    background-color: #fed43a;
+      /* max-height: 850px; */
+      /* height: 600px !important; */
+      /* height: 80vh; */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: none !important;
+
+  }
+
 }

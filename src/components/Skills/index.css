@@ -1,0 +1,148 @@
+.left-section>.left-about-content {
+  /* margin: 0 auto; */
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
+  /* display: grid; */
+  margin: 50px auto;
+  align-items: center;
+  height: 80%;
+  width: 70%;
+  min-width: 50%;
+  /* border: 1px solid green; */
+}
+.about-header {
+  text-align: center;
+  margin-top: 3rem;
+  padding-bottom: 0;
+  font-size: 3.4rem;
+  color: aliceblue;
+}
+
+.about-paragraph {
+  margin: 80px auto;
+  padding: 5px;
+  /* margin-bottom: 3rem; */
+  font-size: 1.2rem;
+  color: aliceblue
+}
+
+
+.right-section-skills {
+  background-color: #fed43a;
+  display: grid;
+  max-height: 850px;
+  height: 100vh;
+  min-height: 600px !important;
+    
+    
+}
+
+.skills-card-row {
+  margin: 0 auto !important;
+  width: 80%;
+}
+
+.skills-header {
+  text-align: center;
+  margin: 10px auto;
+  font-size: 3rem;
+
+}
+
+.skills-card {
+  /* border: 1px solid red !important; */
+  background-color: black !important;
+  color: #fed43a;
+  border-radius: 10% !important;
+  width: 220px !important;
+  box-shadow: -10px -7px 19px -6px rgba(0, 0, 0, 0.7);
+  -webkit-box-shadow: -10px -7px 19px -6px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: -10px -7px 19px -6px rgba(0, 0, 0, 0.7);
+
+}
+
+.skills-card:hover {
+  opacity: 0.8;
+  transition: 0.5s ease-in-out;
+}
+
+.img-wrapper {
+  margin: 10px auto;
+  width:50px;
+  height:50px;
+  
+}
+
+.img-wrapper > img {
+  border-radius: 10% !important;
+}
+
+.gallery-button {
+  display: grid;
+  margin: 10px auto !important;
+  width: 50%;
+  height: 40px;
+}
+
+.btn-skills {
+  background-color: black !important;
+  color: #fed43a !important;
+  border: none !important;
+}
+.btn-skills:hover {
+  background-color: #fed43a !important;
+  color: black !important;
+  border: 2px solid black !important;
+  transition: 0.3s ease-in-out;
+}
+
+.express-img {
+  width: 100px;
+  
+}
+
+@media screen and (max-width: 780px) {
+  
+
+  #mongo-card {
+    display: none !important;
+  }
+  #node-card {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 775px) {
+  .right-section-skills {
+      height: 1000px;
+      min-height: 200px !important;
+  
+    }
+}
+
+@media screen and (max-width: 575px) {
+  .right-section-skills {
+    height: 800px;
+    min-height: 200px !important;
+  
+  }
+
+  .skills-card-row {
+    margin: 0 auto !important;
+    width: 40%;
+  }
+  .left-about-content {
+    height: 400px !important;
+  }
+
+  #express-card {
+    display: none !important;
+  }
+
+  #node-card {
+    display: none !important;
+  }
+}

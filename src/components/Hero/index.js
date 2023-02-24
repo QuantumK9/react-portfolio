@@ -9,7 +9,7 @@ export default function index() {
         <div className="custom-jumbo row">
           <div className="left-jumbo col-xs-12 col-sm-6 w-100">
             <div className="row row-col-1 align-items-center">
-              <div className="card left-jumbo-card mb-3 w-50 mx-auto">
+              <div className="card left-jumbo-card mb-3 mx-auto">
                 <img
                   id="left-jumbo-img`"
                   className="card-img"
@@ -24,21 +24,38 @@ export default function index() {
               </div>
             </div>
           </div>
-          <div className="right-jumbo col-xs-12 col-sm-6">
+          <div className="right-hero-jumbo col-xs-12 col-sm-6">
             <div className="row row-col-1">
-              <div className="card-body">
-                <h5 className="card-title">Card title</h5>
-                <p className="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                </p>
+              <div className="card right-jumbo-card">
+                <div className="card-body">
+                  <h1 className="info-card-title">Iraklis K</h1>
+                  <h2 className="info-card-subtitle mb-2 text-muted">
+                    Web developer
+                  </h2>
+                  <p className="info-card-text">
+                    I love programming and developing for the web! Javascript
+                    React and Next are my favourites.
+                  </p>
+                  <NavLink
+                    to="/work"
+                    className="card-link btn btn-primary btn-mywork"
+                    href="#"
+                  >
+                    My Work
+                  </NavLink>
+                  <NavLink
+                    to="/contact"
+                    className="card-link btn btn-success btn-contact"
+                    href="#"
+                  >
+                    Contact Me
+                  </NavLink>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      {/* --- part 2 --- */}
     </>
   );
 }
