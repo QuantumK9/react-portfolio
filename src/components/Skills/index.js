@@ -27,7 +27,7 @@ export default function index() {
             </div>
           </div>
         </div>
-        <div className="right-section col-xs-12 col-sm-6 card-group">
+        <div className="right-section-skills col-xs-12 col-sm-6 card-group">
           <div className="row skills-card-row ">
             {/* <div className="card-group"> */}
             <div
@@ -143,7 +143,7 @@ export default function index() {
               </div>
             </div>
           </div>
-          <div className="row skills-card-row gallery-button">
+          <div className="row gallery-button">
             <div className="col-12 gallery-button">
               <NavLink to="/work" role="button" className=" btn btn-primary">
                 Gallery
