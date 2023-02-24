@@ -1,5 +1,6 @@
 .skills-card-row {
-
+  margin: 0 auto !important;
+  width: 80%;
 }
 
 .skills-card {
@@ -7,10 +8,53 @@
   background-color: black !important;
   color: #fed43a;
   border-radius: 10% !important;
+  width: 220px !important;
+
 }
 
 .img-wrapper {
   margin: 10px auto;
   width:50px;
   height:50px;
+  
 }
+
+.img-wrapper > img {
+  border-radius: 10% !important;
+}
+
+.gallery-button {
+  display: grid;
+  margin: 0 auto !important;
+  width: 50%;
+}
+
+.btn {
+  background-color: black !important;
+  color: #fed43a !important;
+  border: none !important;
+}
+
+.express-img {
+  width: 100px;
+  
+}
+
+@media screen and (max-width: 914px) {
+  
+  /* .skills-card-row {
+    justify-content: center !important;
+    width: 100%;
+    }
+  .skills-card {
+    width: 600px !important;
+  }
+
+  #express-card {
+    display: none !important;
+  }
+  #next-card {
+    display: none !important;
+  } */
+}
+
