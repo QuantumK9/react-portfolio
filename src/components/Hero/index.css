@@ -2,12 +2,12 @@
   background-color:black;
   justify-content: center !important;
   align-items: center;
-  height: 100vh;
+  height: 80vh;
 }
 
 .right-section {
   background-color:#fed43a;;
-  height: 100vh;
+  height: 80vh;
   align-items: center;
 }
 
@@ -37,7 +37,7 @@
   justify-content: center;
 }
 
-.right-jumbo {
+.right-hero-jumbo {
   background-color:#fed43a;
   max-height: 850px;
   min-height: 600px;
@@ -85,4 +85,37 @@
 
 .info-card-text {
   font-size: 1rem;
+}
+
+.btn-mywork {
+  background-color: black !important;
+  color: #fed43a !important;
+  border: none !important;
+}
+
+.btn-mywork:hover , .btn-contact:hover {
+  opacity: 0.6 !important;
+  transition: 0.5s ease-in-out !important;
+}
+
+.btn-contact {
+  background-color: grey !important;
+  color: #fed43a !important;
+  border: none !important;
+}
+
+@media screen and (max-width: 575px) {
+  
+  .right-hero-jumbo {
+    background-color: #fed43a;
+      /* max-height: 850px; */
+      /* height: 600px !important; */
+      /* height: 80vh; */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: none !important;
+
+  }
+
 }

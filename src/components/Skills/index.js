@@ -146,7 +146,11 @@ export default function index() {
           </div>
           <div className="row gallery-button">
             <div className="col-12 gallery-button">
-              <NavLink to="/work" role="button" className=" btn btn-primary">
+              <NavLink
+                to="/work"
+                role="button"
+                className=" btn btn-primary btn-skills"
+              >
                 Gallery
               </NavLink>
             </div>

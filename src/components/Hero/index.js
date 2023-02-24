@@ -24,7 +24,7 @@ export default function index() {
               </div>
             </div>
           </div>
-          <div className="right-jumbo col-xs-12 col-sm-6">
+          <div className="right-hero-jumbo col-xs-12 col-sm-6">
             <div className="row row-col-1">
               <div className="card right-jumbo-card">
                 <div className="card-body">
@@ -38,14 +38,14 @@ export default function index() {
                   </p>
                   <NavLink
                     to="/work"
-                    className="card-link btn btn-primary"
+                    className="card-link btn btn-primary btn-mywork"
                     href="#"
                   >
                     My Work
                   </NavLink>
                   <NavLink
                     to="/contact"
-                    className="card-link btn btn-success"
+                    className="card-link btn btn-success btn-contact"
                     href="#"
                   >
                     Contact Me
