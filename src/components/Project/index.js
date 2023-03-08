@@ -35,25 +35,28 @@ export default function index({
             </div>
             <div className="button-wrapper">
               <a
-                href="https://pay.com/"
+                href={websiteUrl}
                 target="_blank"
                 className="project-site-link btn btn-success"
               >
                 Go To Website
               </a>
-              <a href="#" className="project-repo-link btn btn-primary">
-                Case-study coming soon
+              <a
+                href={repoUrl}
+                target="_blank"
+                className="project-repo-link btn btn-primary"
+              >
+                Repository
               </a>
             </div>
           </div>
         </div>
       </div>
       <div className="right-section col-xs-12 col-sm-6 ">
-        <img
-          src="https://images.unsplash.com/photo-1480694313141-fce5e697ee25?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
-          alt="project"
-        />
+        <img src={screenshotPath} alt="project" />
       </div>
     </>
   );
 }
+
+// https://images.unsplash.com/photo-1480694313141-fce5e697ee25?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80
