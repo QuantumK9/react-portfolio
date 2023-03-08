@@ -1,13 +1,13 @@
 import React from "react";
 import "./index.css";
 
-export default function index() {
+export default function index({ title }) {
   return (
     <>
       <div className="left-section col-xs-12 col-sm-6">
         <div className="left-content ">
           <h2 className="project-header">
-            <span className="project-header-span">01.</span> Project Title
+            <span className="project-header-span">01.</span> {title}
           </h2>
 
           <p className="project-subtitle ">Small description</p>
