@@ -17,7 +17,7 @@ export default function index() {
             title={pr.title}
             id={pr.id}
             description={pr.description}
-            role={pr.role}
+            subtitle={pr.subtitle}
             techs={pr.techs}
             screenshotPath={pr.screenshotPath}
             repoUrl={pr.repoUrl}

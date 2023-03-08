@@ -1,28 +1,35 @@
 import React from "react";
 import "./index.css";
 
-export default function index({ title }) {
+export default function index({
+  id,
+  title,
+  description,
+  subtitle,
+  techs,
+  screenshotPath,
+  repoUrl,
+  websiteUrl,
+}) {
   return (
     <>
       <div className="left-section col-xs-12 col-sm-6">
         <div className="left-content ">
           <h2 className="project-header">
-            <span className="project-header-span">01.</span> {title}
+            <span className="project-header-span">0{id}.</span> {title}
           </h2>
 
-          <p className="project-subtitle ">Small description</p>
+          <p className="project-subtitle ">{subtitle}</p>
           <div className="project-content-wrapper">
             <p className="project-paragraph ">
-              Led the full design process on a multi million dollar domain for a
-              fintech company that is redefining the world of payments.
+              {description}
               <br />
             </p>
 
             <div className="techs-wrapper">
               {/* <div className="horizontal-line"></div> */}
               <p className="techs-paragraph">
-                <span className="text-bolder">Techs Used: </span> Product,
-                Web-Design, Development &amp; SEO.
+                <span className="text-bolder">Techs Used: </span> {techs}
               </p>
               <div className="horizontal-line"></div>
             </div>
