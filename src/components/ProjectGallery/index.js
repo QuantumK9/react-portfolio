@@ -11,27 +11,20 @@ export default function index() {
       <div className="row">
         <WorkHeader />
       </div>
-      {projects.map((pr) => (
-        <div className="row">
-          <Project title={pr.title} />
+      {projects.map((pr, index) => (
+        <div className={index === 5 ? "row last-row" : "row"} key={pr.id}>
+          <Project
+            title={pr.title}
+            id={pr.id}
+            description={pr.description}
+            role={pr.role}
+            techs={pr.techs}
+            screenshotPath={pr.screenshotPath}
+            repoUrl={pr.repoUrl}
+            websiteUrl={pr.websiteUrl}
+          />
         </div>
       ))}
-
-      {/* <div className="row">
-        <Project title={projects[0].title}/>
-      </div>
-      <div className="row">
-        <Project title={projects[0].title}/>
-      </div>
-      <div className="row">
-        <Project title={projects[0].title}/>
-      </div>
-      <div className="row">
-        <Project title={projects[0].title}/>
-      </div>
-      <div className="row last-row">
-        <Project title={projects[0].title}/>
-      </div> */}
     </div>
   );
 }
