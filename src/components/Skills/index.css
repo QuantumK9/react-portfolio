@@ -32,7 +32,19 @@
 
 .right-section-skills {
   background-color: #fed43a;
-  display: grid;
+  display: grid !important;
+  /* new lines  */
+  gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+    "header header header"
+    "card1 card2 card3"
+    "card4 card5 card6"
+    "gallery-button gallery-button gallery-button"
+    ;
+
+
+  /* end of new lines  */
   max-height: 850px;
   height: 100vh;
   min-height: 600px !important;
@@ -40,6 +52,34 @@
     
 }
 
+.skills-header {
+  grid-area: header;
+}
+.skills-card1 {
+  grid-area: card1;
+}
+.skills-card2 {
+  grid-area: card2;
+}
+.skills-card3 {
+  grid-area: card3;
+}
+.skills-card4 {
+  grid-area: card4;
+}
+.skills-card5 {
+  grid-area: card5;
+}
+.skills-card6 {
+  grid-area: card6;
+}
+.gallery-button {
+  grid-area: gallery-button;
+}
+
+
+
+/* 
 .skills-card-row {
   margin: 0 auto !important;
   width: 80%;
@@ -50,10 +90,13 @@
   margin: 10px auto;
   font-size: 3rem;
 
+} */
+.card {
+  background-color: black !important;
+    color: #fed43a;
 }
-
-.skills-card {
-  /* border: 1px solid red !important; */
+.skills-cards ,  {
+   /* border: 1px solid red !important; */
   background-color: black !important;
   color: #fed43a;
   border-radius: 10% !important;
@@ -63,7 +106,7 @@
   -moz-box-shadow: -10px -7px 19px -6px rgba(0, 0, 0, 0.7);
 
 }
-
+/* 
 .skills-card:hover {
   opacity: 0.8;
   transition: 0.5s ease-in-out;
@@ -102,8 +145,8 @@
 .express-img {
   width: 100px;
   
-}
-
+} */
+/* 
 @media screen and (max-width: 780px) {
   
 
@@ -121,8 +164,8 @@
       min-height: 200px !important;
   
     }
-}
-
+} */
+/* 
 @media screen and (max-width: 575px) {
   .right-section-skills {
     height: 800px;
@@ -145,4 +188,4 @@
   #node-card {
     display: none !important;
   }
-}
+} */
