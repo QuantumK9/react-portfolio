@@ -26,93 +26,95 @@ export default function index() {
           </div>
         </div>
         <div className="right-section-skills col-xs-12 col-sm-6">
-          <h1 className="skills-header">My Skills</h1>
-          <div className="card skills-cards skills-card1">
-            <div className="img-wrapper">
-              <img
-                src={react}
-                alt="an surfing in ocean"
-                className="card-img-top"
-              />
+          <div className="skills-container">
+            <h1 className="skills-header">My Skills</h1>
+            <div className="card skills-cards skills-card1">
+              <div className="img-wrapper">
+                <img
+                  src={react}
+                  alt="an surfing in ocean"
+                  className="card-img-top"
+                />
+              </div>
+              <div className="card-body">
+                <h5 className="card-title">React JS</h5>
+                <p className="card-text">A great tool for SPA</p>
+              </div>
             </div>
-            <div className="card-body">
-              <h5 className="card-title">React JS</h5>
-              <p className="card-text">A great tool for SPA</p>
+            <div className="card skills-cards skills-card2">
+              <div className="img-wrapper">
+                <img
+                  src={redux}
+                  alt="an surfing in ocean"
+                  className="card-img-top"
+                />
+              </div>
+              <div className="card-body">
+                <h5 className="card-title">Redux</h5>
+                <p className="card-text">A great tool for SPA</p>
+              </div>
             </div>
-          </div>
-          <div className="card skills-cards skills-card2">
-            <div className="img-wrapper">
-              <img
-                src={redux}
-                alt="an surfing in ocean"
-                className="card-img-top"
-              />
+            <div className="card skills-cards skills-card3">
+              <div className="img-wrapper">
+                <img
+                  src={next}
+                  alt="an surfing in ocean"
+                  className="card-img-top"
+                />
+              </div>
+              <div className="card-body">
+                <h5 className="card-title">Next JS</h5>
+                <p className="card-text">A great tool for SPA</p>
+              </div>
             </div>
-            <div className="card-body">
-              <h5 className="card-title">Redux</h5>
-              <p className="card-text">A great tool for SPA</p>
+            <div className="card skills-cards skills-card4">
+              <div className="img-wrapper">
+                <img
+                  src={mongodb}
+                  alt="an surfing in ocean"
+                  className="card-img-top"
+                />
+              </div>
+              <div className="card-body">
+                <h5 className="card-title">Mongo DB</h5>
+                <p className="card-text">A great tool for SPA</p>
+              </div>
             </div>
-          </div>
-          <div className="card skills-cards skills-card3">
-            <div className="img-wrapper">
-              <img
-                src={react}
-                alt="an surfing in ocean"
-                className="card-img-top"
-              />
+            <div className="card skills-cards skills-card5">
+              <div className="img-wrapper">
+                <img
+                  src={node}
+                  alt="an surfing in ocean"
+                  className="card-img-top"
+                />
+              </div>
+              <div className="card-body">
+                <h5 className="card-title">Node JS</h5>
+                <p className="card-text">A great tool for SPA</p>
+              </div>
             </div>
-            <div className="card-body">
-              <h5 className="card-title">React JS</h5>
-              <p className="card-text">A great tool for SPA</p>
+            <div className="card skills-cards skills-card6">
+              <div className="img-wrapper">
+                <img
+                  src={express}
+                  alt="an surfing in ocean"
+                  className="card-img-top"
+                />
+              </div>
+              <div className="card-body">
+                <h5 className="card-title">Express</h5>
+                <p className="card-text">A great tool for SPA</p>
+              </div>
             </div>
-          </div>
-          <div className="card skills-cards skills-card4">
-            <div className="img-wrapper">
-              <img
-                src={react}
-                alt="an surfing in ocean"
-                className="card-img-top"
-              />
+            <div className="gallery-button">
+              <NavLink
+                to="/work"
+                role="button"
+                className=" btn btn-primary btn-skills"
+              >
+                Gallery
+              </NavLink>
             </div>
-            <div className="card-body">
-              <h5 className="card-title">React JS</h5>
-              <p className="card-text">A great tool for SPA</p>
-            </div>
-          </div>
-          <div className="card skills-cards skills-card5">
-            <div className="img-wrapper">
-              <img
-                src={react}
-                alt="an surfing in ocean"
-                className="card-img-top"
-              />
-            </div>
-            <div className="card-body">
-              <h5 className="card-title">React JS</h5>
-              <p className="card-text">A great tool for SPA</p>
-            </div>
-          </div>
-          <div className="card skills-cards skills-card6">
-            <div className="img-wrapper">
-              <img
-                src={react}
-                alt="an surfing in ocean"
-                className="card-img-top"
-              />
-            </div>
-            <div className="card-body">
-              <h5 className="card-title">React JS</h5>
-              <p className="card-text">A great tool for SPA</p>
-            </div>
-          </div>
-          <div className="gallery-button">
-            <NavLink
-              to="/work"
-              role="button"
-              className=" btn btn-primary btn-skills"
-            >
-              Gallery
-            </NavLink>
           </div>
         </div>
       </div>
