@@ -157,6 +157,31 @@
   width: 100px;
   
 }
+
+@media screen and (max-width: 1140px) {
+  .skills-container {
+    
+    column-gap: 10px;
+    row-gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 100px repeat(3,minmax(200px, auto)) 100px;
+    grid-template-areas:
+      "header header"
+      "card1 card2 "
+      "card3 card4 "
+      "card5 card6 "
+      "gallery-button gallery-button "
+    ;
+
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    /* end of new lines  */
+    max-height: 850px;
+    height: 100vh;
+    min-height: 600px !important;
+  }
+}
 /* 
 @media screen and (max-width: 780px) {
   
