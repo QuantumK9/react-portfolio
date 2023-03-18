@@ -182,6 +182,37 @@
     min-height: 600px !important;
   }
 }
+
+@media screen and (max-width: 780px) and (min-width: 576px ) {
+  .card-body {
+    padding-top: 0.8rem !important;
+    padding-bottom: 0.8rem !important;
+
+  }
+  .card-title {
+    font-size: 1rem !important;
+    margin-bottom: 0.5rem !important;
+  }
+  .card-text {
+    font-size: 0.8rem !important;
+  }
+}
+@media screen and (max-width: 350px)  {
+  .card-body {
+    padding-top: 0.8rem !important;
+    padding-bottom: 0.8rem !important;
+
+  }
+  .card-title {
+    font-size: 1rem !important;
+    margin-bottom: 0.5rem !important;
+  }
+  .card-text {
+    font-size: 0.8rem !important;
+  }
+}
+
+
 /* 
 @media screen and (max-width: 780px) {
   
