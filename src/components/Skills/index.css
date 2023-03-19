@@ -1,11 +1,4 @@
 .left-section>.left-about-content {
-  /* margin: 0 auto; */
-  /* position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%); */
-  /* display: grid; */
   display: flex;
   flex-direction: column;
   margin: 50px auto;
@@ -164,6 +157,9 @@
 }
 
 @media screen and (max-width: 1140px) {
+  .left-section>.left-about-content {
+    border: 7px solid #fed43a;
+  }
   .left-section {
     display: flex !important;
     flex-direction: column;
@@ -171,17 +167,17 @@
   }
   .about-header {
       
-      font-size: 2.4rem;
-      color: #fed43a;
-    }
-  
-    .about-paragraph {
-      margin: 1rem auto;
-      padding: 1.2rem 1.6rem;
-      /* margin-bottom: 3rem; */
-      font-size: 1rem;
-      color: aliceblue
-    }
+    font-size: 2.4rem;
+    color: #fed43a;
+  }
+
+  .about-paragraph {
+    margin: 1rem auto;
+    padding: 1.2rem 1.6rem;
+    /* margin-bottom: 3rem; */
+    font-size: 1rem;
+    color: aliceblue
+  }
 
   .skills-container {
     
@@ -208,6 +204,9 @@
 }
 
 @media screen and (max-width: 780px) and (min-width: 576px ) {
+  .left-section>.left-about-content {
+      border: 5px solid #fed43a;
+    }
   .left-section {
     display: flex !important;
     flex-direction: column;
@@ -242,6 +241,9 @@
   }
 }
 @media screen and (max-width: 350px)  {
+  .left-section>.left-about-content {
+    border: 5px solid #fed43a;
+  }
   .left-section {
     display: flex !important;
     flex-direction: column;
@@ -249,7 +251,6 @@
   }
 
   .about-header {
-
     font-size: 2rem;
     color: #fed43a;
   }
@@ -276,47 +277,3 @@
 }
 
 
-
-/* 
-@media screen and (max-width: 780px) {
-  
-
-  #mongo-card {
-    display: none !important;
-  }
-  #node-card {
-    display: none !important;
-  }
-}
-
-@media screen and (max-width: 775px) {
-  .right-section-skills {
-      height: 1000px;
-      min-height: 200px !important;
-  
-    }
-} */
-/* 
-@media screen and (max-width: 575px) {
-  .right-section-skills {
-    height: 800px;
-    min-height: 200px !important;
-  
-  }
-
-  .skills-card-row {
-    margin: 0 auto !important;
-    width: 40%;
-  }
-  .left-about-content {
-    height: 400px !important;
-  }
-
-  #express-card {
-    display: none !important;
-  }
-
-  #node-card {
-    display: none !important;
-  }
-} */
