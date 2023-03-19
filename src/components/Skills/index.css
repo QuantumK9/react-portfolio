@@ -1,29 +1,27 @@
 .left-section>.left-about-content {
-  /* margin: 0 auto; */
-  /* position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%); */
-  /* display: grid; */
+  display: flex;
+  flex-direction: column;
   margin: 50px auto;
   align-items: center;
-  height: 80%;
+  height: 60%;
   width: 70%;
   min-width: 50%;
-  /* border: 1px solid green; */
+  min-height: 470px;
+  background-color: black;
+  border-radius: 15px;
+  border: 10px solid #fed43a;
 }
 .about-header {
   text-align: center;
-  margin-top: 3rem;
+  margin-top: 1rem;
   padding-bottom: 0;
   font-size: 3.4rem;
-  color: aliceblue;
+  color: #fed43a;
 }
 
 .about-paragraph {
-  margin: 80px auto;
-  padding: 5px;
+  margin: 2rem auto;
+  padding: 1.5rem 2rem;
   /* margin-bottom: 3rem; */
   font-size: 1.2rem;
   color: aliceblue
@@ -32,7 +30,9 @@
 
 .right-section-skills {
   background-color: #fed43a;
-  display: grid;
+  display: grid !important;
+  
+  /* end of new lines  */
   max-height: 850px;
   height: 100vh;
   min-height: 600px !important;
@@ -40,33 +40,79 @@
     
 }
 
-.skills-card-row {
-  margin: 0 auto !important;
-  width: 80%;
+.skills-container {
+  /* background-color: #fed43a; */
+  display: grid !important;
+  /* new lines  */
+  /* gap: 10px; */
+  column-gap: 10px;
+  row-gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4,minmax(150px,auto));
+  grid-template-areas:
+    "header header header"
+    "card1 card2 card3"
+    "card4 card5 card6"
+    "gallery-button gallery-button gallery-button"
+  ;
+  
+  width:80%;
+  max-width: 600px;
+  margin:0 auto;
+    /* end of new lines  */
+  max-height: 850px;
+  height: 100vh;
+  min-height: 600px !important;
 }
 
 .skills-header {
-  text-align: center;
-  margin: 10px auto;
+  grid-area: header;
+}
+.skills-card1 {
+  grid-area: card1;
+}
+.skills-card2 {
+  grid-area: card2;
+}
+.skills-card3 {
+  grid-area: card3;
+}
+.skills-card4 {
+  grid-area: card4;
+}
+.skills-card5 {
+  grid-area: card5;
+}
+.skills-card6 {
+  grid-area: card6;
+}
+.gallery-button {
+  grid-area: gallery-button;
+}
+
+
+.skills-header {
+  display: flex;
   font-size: 3rem;
+  align-items: center;
+  justify-content: center;
 
 }
 
-.skills-card {
-  /* border: 1px solid red !important; */
+.skills-cards   {
   background-color: black !important;
   color: #fed43a;
   border-radius: 10% !important;
-  width: 220px !important;
+  /* width: 220px !important; */
   box-shadow: -10px -7px 19px -6px rgba(0, 0, 0, 0.7);
   -webkit-box-shadow: -10px -7px 19px -6px rgba(0, 0, 0, 0.7);
   -moz-box-shadow: -10px -7px 19px -6px rgba(0, 0, 0, 0.7);
 
 }
 
-.skills-card:hover {
+.skills-cards:hover {
   opacity: 0.8;
-  transition: 0.5s ease-in-out;
+  transition: all 0.5s ;
 }
 
 .img-wrapper {
@@ -81,16 +127,22 @@
 }
 
 .gallery-button {
-  display: grid;
-  margin: 10px auto !important;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin: 20px auto !important;
   width: 50%;
   height: 40px;
+  
 }
 
 .btn-skills {
   background-color: black !important;
   color: #fed43a !important;
+  border-radius: 10px !important;
   border: none !important;
+  font-size: 1.2rem !important;
+  width: 100%;
 }
 .btn-skills:hover {
   background-color: #fed43a !important;
@@ -104,45 +156,124 @@
   
 }
 
-@media screen and (max-width: 780px) {
-  
-
-  #mongo-card {
-    display: none !important;
+@media screen and (max-width: 1140px) {
+  .left-section>.left-about-content {
+    border: 7px solid #fed43a;
   }
-  #node-card {
-    display: none !important;
+  .left-section {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .about-header {
+      
+    font-size: 2.4rem;
+    color: #fed43a;
+  }
+
+  .about-paragraph {
+    margin: 1rem auto;
+    padding: 1.2rem 1.6rem;
+    /* margin-bottom: 3rem; */
+    font-size: 1rem;
+    color: aliceblue
+  }
+
+  .skills-container {
+    
+    column-gap: 10px;
+    row-gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 80px repeat(3,minmax(170px, 200px)) 80px;
+    grid-template-areas:
+      "header header"
+      "card1 card2 "
+      "card3 card4 "
+      "card5 card6 "
+      "gallery-button gallery-button "
+    ;
+
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    /* end of new lines  */
+    max-height: 850px;
+    height: 100vh;
+    min-height: 600px !important;
   }
 }
 
-@media screen and (max-width: 775px) {
-  .right-section-skills {
-      height: 1000px;
-      min-height: 200px !important;
-  
+@media screen and (max-width: 780px) and (min-width: 576px ) {
+  .left-section>.left-about-content {
+      border: 5px solid #fed43a;
     }
+  .left-section {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .about-header {
+
+    font-size: 2rem;
+    color: #fed43a;
+  }
+
+  .about-paragraph {
+    margin: 0.6rem auto;
+    padding: 1rem 1.2rem;
+    /* margin-bottom: 3rem; */
+    font-size: 0.88rem;
+    color: aliceblue
+  }
+
+  .card-body {
+    padding-top: 0.8rem !important;
+    padding-bottom: 0.8rem !important;
+
+  }
+  .card-title {
+    font-size: 1rem !important;
+    margin-bottom: 0.5rem !important;
+  }
+  .card-text {
+    font-size: 0.8rem !important;
+  }
+}
+@media screen and (max-width: 350px)  {
+  .left-section>.left-about-content {
+    border: 5px solid #fed43a;
+  }
+  .left-section {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .about-header {
+    font-size: 2rem;
+    color: #fed43a;
+  }
+
+  .about-paragraph {
+    margin: 0.6rem auto;
+    padding: 1rem 1.2rem;
+    /* margin-bottom: 3rem; */
+    font-size: 0.88rem;
+    color: aliceblue
+  }
+  .card-body {
+    padding-top: 0.8rem !important;
+    padding-bottom: 0.8rem !important;
+
+  }
+  .card-title {
+    font-size: 1rem !important;
+    margin-bottom: 0.5rem !important;
+  }
+  .card-text {
+    font-size: 0.8rem !important;
+  }
 }
 
-@media screen and (max-width: 575px) {
-  .right-section-skills {
-    height: 800px;
-    min-height: 200px !important;
-  
-  }
 
-  .skills-card-row {
-    margin: 0 auto !important;
-    width: 40%;
-  }
-  .left-about-content {
-    height: 400px !important;
-  }
-
-  #express-card {
-    display: none !important;
-  }
-
-  #node-card {
-    display: none !important;
-  }
-}
