@@ -30,7 +30,7 @@
   /* min-height: 160px; */
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   #work-header {
     border-bottom: 1px solid #fed43a;
     font-size: 4.5rem;

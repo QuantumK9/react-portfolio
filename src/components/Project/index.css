@@ -109,9 +109,9 @@
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .right-section {
-    height: 60vh;
+    height: 50vh;
     min-height: 400px !important;
     /* border-bottom: 10px dashed black; */
     
