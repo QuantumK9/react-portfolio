@@ -16,11 +16,11 @@ export default function index() {
           <div className="left-about-content ">
             <h2 className="about-header">About me</h2>
             <p className="about-paragraph ">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
-              accusantium iusto doloribus hic totam, ad dolore dicta deleniti
-              doloremque soluta voluptate recusandae. Eos illo doloremque
-              corporis modi accusantium fugit quibusdam temporibus maxime,
-              delectus iure,.
+              Welcome to my page. I am a Web Developer with background in
+              Physics and Postgraduate studies in Environmental Physics. I work
+              in education, teaching Science and Computer Science. I love using
+              the MERN stack for Web Developing and also like to get creative
+              with Python.
               <br />
             </p>
           </div>
