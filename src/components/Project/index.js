@@ -13,7 +13,7 @@ export default function index({
 }) {
   return (
     <>
-      <div className="left-section col-xs-12 col-sm-6">
+      <div className="left-section col-xs-12 col-md-6">
         <div className="left-content ">
           <h2 className="project-header">
             <span className="project-header-span">0{id}.</span> {title}
@@ -52,7 +52,7 @@ export default function index({
           </div>
         </div>
       </div>
-      <div className="right-section col-xs-12 col-sm-6 ">
+      <div className="right-section col-xs-12 col-md-6 ">
         <img src={screenshotPath} alt="project" />
       </div>
     </>
