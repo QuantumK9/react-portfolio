@@ -9,7 +9,7 @@ export default function ContactHeader() {
       <p class="contact-paragraph ">Go ahead... Don't be shy</p>
 
       <div class="social-wrapper">
-        <a href="tel:+97254-905-0351" class="social-link-wrapper ">
+        <a href="#" class="social-link-wrapper ">
           <img
             src="https://uploads-ssl.webflow.com/5f4bcd5217865e26e2333f3d/5f4f458afe5898a6ab9b58b8_Circle%20Button.svg"
             loading="lazy"
