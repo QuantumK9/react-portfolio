@@ -107,7 +107,7 @@
   border: none !important;
 }
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 767px) {
   .jumbotron {
     padding: 0 !important;
     margin: 0 !important;

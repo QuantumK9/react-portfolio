@@ -7,7 +7,7 @@ export default function index() {
     <>
       <div className="jumbotron">
         <div className="custom-jumbo row">
-          <div className="left-jumbo col-xs-12 col-sm-6 w-100">
+          <div className="left-jumbo col-xs-12 col-md-6 w-100">
             <div className="row row-col-1 align-items-center">
               <div className="card left-jumbo-card mb-3 mx-auto">
                 <img
@@ -24,7 +24,7 @@ export default function index() {
               </div>
             </div>
           </div>
-          <div className="right-hero-jumbo col-xs-12 col-sm-6">
+          <div className="right-hero-jumbo col-xs-12 col-md-6">
             <div className="row row-col-1">
               <div className="card right-jumbo-card">
                 <div className="card-body">

@@ -12,7 +12,7 @@ export default function index() {
   return (
     <div className="container-fluid work">
       <div className="row">
-        <div className="left-section col-xs-12 col-sm-6">
+        <div className="left-section col-xs-12 col-md-6">
           <div className="left-about-content ">
             <h2 className="about-header">About me</h2>
             <p className="about-paragraph ">
@@ -25,7 +25,7 @@ export default function index() {
             </p>
           </div>
         </div>
-        <div className="right-section-skills col-xs-12 col-sm-6">
+        <div className="right-section-skills col-xs-12 col-md-6">
           <div className="skills-container">
             <h1 className="skills-header">My Skills</h1>
             <div className="card skills-cards skills-card1">
