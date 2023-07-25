@@ -33,8 +33,8 @@ export default function index() {
                     Web developer
                   </h2>
                   <p className="info-card-text">
-                    I love programming and developing for the web! Javascript
-                    React and Next are my favourites.
+                    I love programming and developing for the web! Javascript,
+                    React and Next.JS are some of my favourites.
                   </p>
                   <NavLink
                     to="/work"
