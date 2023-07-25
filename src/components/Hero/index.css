@@ -25,6 +25,7 @@
   max-height: 850px;
   min-height: 600px !important;
   align-items: center !important;
+  top: 0 !important;
 }
 
 .custom-jumbo {

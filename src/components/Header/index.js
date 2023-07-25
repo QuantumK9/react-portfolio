@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
+import "./index.css";
 
 export default class index extends Component {
   state = {
@@ -16,7 +17,7 @@ export default class index extends Component {
   render() {
     const show = this.state.showCollapsedMenu ? "show" : "";
     return (
-      <nav className="nav navbar navbar-expand-md navbar-dark bg-dark custom-navbar">
+      <nav className="navbar navbar-expand-md navbar-dark fixed-top custom-navbar ">
         <NavLink to="/" className="navbar-brand" href="#">
           Iraklis K
         </NavLink>
@@ -30,7 +31,7 @@ export default class index extends Component {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span className="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon custom-burger"></span>
         </button>
         <div className={`collapse navbar-collapse ${show}`}>
           <div className="navbar-nav">
