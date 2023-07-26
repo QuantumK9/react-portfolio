@@ -109,17 +109,16 @@
 }
 
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 767px) {
   .right-section {
-    height: 300px;
-    min-height: 200px !important;
-    border-bottom: 10px dashed black;
+    height: 50vh;
+    min-height: 400px !important;
+    /* border-bottom: 10px dashed black; */
     
 
   }
 }
 @media screen and (max-width: 934px) {
-
   .left-section {
     
     min-height: 600px;

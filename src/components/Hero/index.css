@@ -8,7 +8,9 @@
 .right-section {
   background-color:#fed43a;;
   height: 80vh;
+  min-height: 600px !important;
   align-items: center;
+ 
 }
 
 .left-section>card {
@@ -21,8 +23,9 @@
   margin: 0 !important;
   height: 100vh;
   max-height: 850px;
-  min-height: 400px;
+  min-height: 600px !important;
   align-items: center !important;
+  top: 0 !important;
 }
 
 .custom-jumbo {
@@ -31,7 +34,7 @@
 .left-jumbo {
   background-color: black;
   max-height: 850px;
-  min-height: 600px;
+  min-height: 500px;
   display: flex;
   align-items: center ;
   justify-content: center;
@@ -40,11 +43,11 @@
 .right-hero-jumbo {
   background-color:#fed43a;
   max-height: 850px;
-  min-height: 600px;
+  min-height: 600px !important;
   display: flex;
-    align-items: center;
-    justify-content: center;
-    border: none !important;
+  align-items: center;
+  justify-content: center;
+  border: none !important;
   /* background-color: orange; */
 }
 
@@ -104,18 +107,24 @@
   border: none !important;
 }
 
-@media screen and (max-width: 575px) {
-  
+@media screen and (max-width: 767px) {
+  .jumbotron {
+    padding: 0 !important;
+    margin: 0 !important;
+    height: 120vh !important;
+    max-height: 1200px;
+    min-height: 1000px !important;
+    align-items: center !important;
+  }
   .right-hero-jumbo {
     background-color: #fed43a;
-      /* max-height: 850px; */
-      /* height: 600px !important; */
-      /* height: 80vh; */
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border: none !important;
-
+    /* height: 800px !important; */
+    display: flex;
+    align-items: center !important;
+    justify-content: center;
+    border: none !important;
+    }
+  .right-jumbo-card {
+    padding: 0 2rem;
   }
-
 }

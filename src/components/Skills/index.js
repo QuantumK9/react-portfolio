@@ -12,20 +12,20 @@ export default function index() {
   return (
     <div className="container-fluid work">
       <div className="row">
-        <div className="left-section col-xs-12 col-sm-6">
+        <div className="left-section col-xs-12 col-md-6">
           <div className="left-about-content ">
             <h2 className="about-header">About me</h2>
             <p className="about-paragraph ">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
-              accusantium iusto doloribus hic totam, ad dolore dicta deleniti
-              doloremque soluta voluptate recusandae. Eos illo doloremque
-              corporis modi accusantium fugit quibusdam temporibus maxime,
-              delectus iure,.
+              Welcome to my page. I am a Web Developer with background in
+              Physics and Postgraduate studies in Environmental Physics. I work
+              in education, teaching Science and Computer Science. I love using
+              the MERN stack for Web Developing and also like to get creative
+              with Python.
               <br />
             </p>
           </div>
         </div>
-        <div className="right-section-skills col-xs-12 col-sm-6">
+        <div className="right-section-skills col-xs-12 col-md-6">
           <div className="skills-container">
             <h1 className="skills-header">My Skills</h1>
             <div className="card skills-cards skills-card1">

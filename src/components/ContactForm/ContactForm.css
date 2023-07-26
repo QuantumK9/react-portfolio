@@ -57,7 +57,7 @@ section>label {
 }
 
 input[type="submit"],
-button {
+.form-button {
   position: relative;
   background: #fed43a;
   color: black;
@@ -103,7 +103,7 @@ input[type="submit"]:active {
 
 @media screen and (max-width: 500px) { 
   input[type="submit"],
-    button {
+    .form-button {
       position: relative;
       background: #fed43a;
       color: black;
@@ -114,7 +114,7 @@ input[type="submit"]:active {
       font-size: 12px;
       display: block;
       border-radius: 4px;
-      width: 60%;
+      /* width: 60%; */
       font-weight: 400;
       letter-spacing: 0.5rem;
       transition: 0.3s all;
